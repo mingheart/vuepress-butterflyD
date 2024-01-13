@@ -1,4 +1,6 @@
 module.exports = {
+    base:'/vuepress-butterflyd/',//线上
+    // base:'/docs/.vuepress/dist/',//本地打包
     title: 'mingheart的知识库',
     description: 'B站搜索「mingheart」关注我，长期交流学习。不知名前端，Node.js爱好者',
     themeConfig: {
@@ -10,6 +12,7 @@ module.exports = {
             { text: '掘金', link: 'https://juejin.cn/user/2418581312900285' },
             { text: 'Gitee', link: 'https://gitee.com/mingheart' }
         ],
+
         sidebar: [
             {
                 title: '侧边栏分组1', 
