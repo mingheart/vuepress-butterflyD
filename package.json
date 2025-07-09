@@ -7,6 +7,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:devHot": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs",
+    "vercel-build": "npm install -g npm@8 && npm ci && npm run docs:build"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
