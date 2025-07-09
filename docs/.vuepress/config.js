@@ -1,4 +1,7 @@
 module.exports = {
+    // base:'/vuepress-butterflyd/',//线上
+    // base:'/docs/.vuepress/dist/',//本地打包
+    base:'/',//默认
     title: 'mingheart的知识库',
     description: 'B站搜索「mingheart」关注我，长期交流学习。不知名前端，Node.js爱好者',
     themeConfig: {
